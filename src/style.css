@@ -1,0 +1,27 @@
+.container {
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.863);
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.box {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.btn {
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    color: rgba(255, 255, 255, 0.863);
+}
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+   .mobile {
+       width: 90%;
+       font-size: .75rem;
+       }
+}
