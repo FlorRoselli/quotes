@@ -1,5 +1,6 @@
 .container {
     width: 60%;
+    border-radius: .25rem;
     background-color: rgba(255, 255, 255, 0.863);
     border-radius: 15px;
     justify-content: center;
@@ -14,6 +15,8 @@
 }
 
 .btn {
+    width: 10rem;
+    height: 2.3rem;
     padding: .375rem .75rem;
     border-radius: .25rem;
     color: rgba(255, 255, 255, 0.863);
